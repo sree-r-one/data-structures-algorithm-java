@@ -1,8 +1,19 @@
+
+/**
+ * Class for storing high scores in an array in non decreasing order
+ */
 public class GameEntry {
 
     // Variables
+
+    /**
+     * Name the person earning the score
+     */
     private String name;
 
+    /**
+     * Score value
+     */
     private int score;
 
     // Constructor
@@ -18,10 +29,16 @@ public class GameEntry {
         this.name = name;
     }
 
+    /**
+     * @return name field
+     */
     public String getName() {
         return name;
     }
 
+    /**
+     * @return score field
+     */
     public int getScore() {
         return score;
     }
